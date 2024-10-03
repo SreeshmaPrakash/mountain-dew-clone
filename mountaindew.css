@@ -1,0 +1,187 @@
+/* fonts used in website */
+@font-face {
+    font-family: cut_the_crap-webfont;
+    src: url(./assets/font/cut_the_crap-webfont.woff2);
+}
+@font-face{
+    font-family: lato-regular-webfont;
+    src: url(./assets/font/lato-regular-webfont.woff2);
+}
+@font-face{
+    font-family: TungstenCondensed-Light;
+    src: url(./assets/font/TungstenCondensed-Light.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainbody{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height: 10rem;
+    background-image: url(./assets/images/navimage.jpeg);
+    display: flex;
+    flex-direction: row;
+}
+.logoportion{
+    float: left;
+}
+.logo{
+    padding-left: 1.5625rem;
+    padding-top: 1.75rem;
+}
+.bar{
+    background: url(./assets/images/asset\ 8.jpeg);
+    float: left;
+    width: 65.3125rem;
+    height: 70px;
+    color: rgba(240,240,240,0.3);
+    margin-top: 1.875rem;
+    margin-left: 9.385rem;
+    font-family: TungstenCondensed-Light;
+    font-size: 2.625rem;
+}
+.taskbar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 6.25rem;
+    float: left;
+}
+.task{
+    text-decoration: none;
+    color: #fff;
+    margin-top: .9375rem;
+    margin-left: 1.875rem;
+    padding-right: .625rem;
+}
+.task:hover{
+    color: green;
+}
+.barlogo{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    padding-left: 18.75rem;
+}
+.tasklogo{
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-left: .625rem;
+    padding-top: .625rem;
+}
+.body{
+    width: 100%;
+    height: 43.75rem;
+    background-color: black;
+    float: left;
+}
+.first{
+    float: left;
+    width: 24.375rem;
+    margin-left: 2.5rem;
+    border: 1px solid;
+    border-color: #727272;
+    position: relative;
+}
+.firsttext{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-family: cut_the_crap-webfont;
+  text-align: bottom left;
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.second{
+    float: left;
+    width: 16.875rem;
+    border: 1px solid;
+    border-color: #727272;
+    margin-left: .3125rem;
+}
+.third{
+    float: left;
+    width: 14.375rem;
+    border: 1px solid;
+    border-color: #727272;
+    margin-left: .3125rem;
+}
+.fourth1{
+    float: left;
+}
+.fourth1img{
+    border: 1px solid;
+    border-color: #727272;
+    margin-left: .3125rem;
+    width: 26.875rem;
+    height: 12.5rem;
+    position: relative;
+}
+.fourth1text{
+  position: absolute;
+  top: 305px;
+  left: 98px; 
+  font-family: cut_the_crap-webfont;
+  text-align: top right;
+  color: #fff;
+  font-size: 35px;
+  padding-left: 880px;
+}
+.fourth2img{
+    width: 26.875rem;
+    height: 29.875rem;
+    border: 1px solid;
+    border-color: #727272;
+    margin-left: .3125rem;
+    position: relative;
+}
+.footer{
+    background-color: #2c2929;
+    width: 100%;
+    height: 2.5rem;
+    padding-top: .625rem;
+    display: flex;
+    flex-direction: row;
+    color: #c9c5c5;
+}
+.left{
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+.footerimg{
+    padding-left: .625rem;
+    padding-right: .625rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    padding-top: .375rem;
+}
+.right{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    padding-left: 28.125rem;
+}
+.content{
+    font-family: 'Times New Roman', Times, serif;
+    color: #919191;
+    font-size: .75rem;
+}
+.terms{
+    padding-left: .125rem;
+    padding-right: .3125rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.terms:hover{
+    color: green;
+}
+.terms1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #919191;
+}
